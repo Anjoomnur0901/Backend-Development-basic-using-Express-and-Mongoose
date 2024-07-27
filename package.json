@@ -1,0 +1,14 @@
+{
+  "name": "mern_stack_learning",
+  "version": "1.0.0",
+  "description": "Backend REST API is created using express js and connected to a MongoDB Database . We are using MVC architechture.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
