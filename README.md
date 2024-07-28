@@ -32,3 +32,13 @@ Basic Learning:
   1.Routes
   2.Route Logics are handled by Controllers
   3.Controllers uses Models
+
+Deploy in Heroku:
+
+- add props file
+- go to heroku and create app
+- Follow instructions
+- go to settings on Heroku
+
+  -Config vars - Key: DB_URL and Value:Link to DB
+- heroku restart

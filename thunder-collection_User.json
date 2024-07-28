@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "User",
+    "collectionId": "98126b51-0e41-42b8-89b6-894a2c0475e4",
+    "dateExported": "2024-07-28T11:26:05.276Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cb25ab8d-212b-4b64-b94a-b34a430f8600",
+            "colId": "98126b51-0e41-42b8-89b6-894a2c0475e4",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:4000/api/users/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-28T10:38:54.649Z",
+            "modified": "2024-07-28T11:00:05.851Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Anaiza Nur\",\n  \"age\":\"9\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4ac376b2-fdb6-4b6e-8bf4-8c4f6fa10232",
+            "colId": "98126b51-0e41-42b8-89b6-894a2c0475e4",
+            "containerId": "",
+            "name": "Get All Users",
+            "url": "http://localhost:4000/api/users/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-28T10:45:22.158Z",
+            "modified": "2024-07-28T11:01:40.238Z",
+            "headers": []
+        },
+        {
+            "_id": "122a8362-00e6-48d7-a75f-024248d8ed76",
+            "colId": "98126b51-0e41-42b8-89b6-894a2c0475e4",
+            "containerId": "",
+            "name": "Get One User",
+            "url": "http://localhost:4000/api/users/2ab5189c-1a77-45f1-a2ad-d35fc978aa42",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-28T11:02:34.729Z",
+            "modified": "2024-07-28T11:02:34.729Z",
+            "headers": []
+        },
+        {
+            "_id": "16a6725b-d196-4827-9f5f-a4441fd708e4",
+            "colId": "98126b51-0e41-42b8-89b6-894a2c0475e4",
+            "containerId": "",
+            "name": "Delete User",
+            "url": "http://localhost:4000/api/users/2ab5189c-1a77-45f1-a2ad-d35fc978aa42",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-28T11:07:55.557Z",
+            "modified": "2024-07-28T11:07:55.557Z",
+            "headers": []
+        },
+        {
+            "_id": "c5172fe8-6e0c-4f01-9a9f-65b04e9e594b",
+            "colId": "98126b51-0e41-42b8-89b6-894a2c0475e4",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://localhost:4000/api/users/69bbe318-e4e7-4f44-a877-995f6798b761",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-07-28T11:14:49.271Z",
+            "modified": "2024-07-28T11:14:49.271Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Anaiza Nur\",\n  \"age\":\"9\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "R_4dg36xarqNmD8f73a_3zs7DZJwyc9takS8YQ0M_QAzmPn7LW7Ueldua-cS0xCqsN-AHD1gz92QXEQzadsvTw"
+}
