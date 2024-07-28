@@ -2,12 +2,17 @@ import { User } from '../models/user.model.js';
 import {v4 as uuidv4} from "uuid";
 // Use the User model in your controller logic
 
-const getAllUsers = (req,res)=>{
-    res.status(200).json({
-        message:"all users"
-    });
+const getAllUsers = async(req,res)=>{
+    try{
+        const users = await User.find();
+        res.status(200).json(users)
+    }catch(e){
+        res.status(500).send(e.message);
+    }
+    
 };
 const getOneUser = (req,res)=>{
+    
     res.status(200).json({
         message:"get one user",
     });
@@ -26,6 +31,7 @@ const createUser = async(req,res)=>{
 }
    
 };
+
 const updateUser = (req,res)=>{
     res.status(201).json({
         message:"user updated",
