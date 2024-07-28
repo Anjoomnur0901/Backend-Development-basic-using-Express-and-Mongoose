@@ -8,4 +8,5 @@ const router = express.Router();
 //api/users/:id : DELETE
 
 router.get("/",getAllUsers);
+router.post("/",createUser);
 export {router as userRouter}

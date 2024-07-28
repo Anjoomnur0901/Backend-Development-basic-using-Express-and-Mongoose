@@ -25,7 +25,7 @@ Basic Learning:
 * deploy a server on Heroku
   **Basic Project Creation:**
   - npm init -y
-  - npm install express dotenv cors mongoose nodemon
+  - npm install express dotenv cors mongoose nodemon uuid
   - configure package.json
   - npm start to run project
 * Basic MVC Architecture

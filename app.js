@@ -13,6 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.urlencoded({extended: true}))// for accessing form data
 app.use(express.json());
+//Route for users
 app.use("/api/users",userRouter);
 
 app.get("/",(request,response)=>{
